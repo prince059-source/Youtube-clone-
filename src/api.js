@@ -1,5 +1,4 @@
-export const api = "AIzaSyBPpWGxhlCPAnFLwC2GSKKyLglAB9Xd-T4";
-
+export const api = import.meta.env.VITE_YOUTUBE_API_KEY;
 export const value_converter = (v) => {
   if (v >= 1000000) {
     return Math.floor(v / 1000000) + "M";
